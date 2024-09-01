@@ -3,19 +3,26 @@ import mysql.connector
 import os
 
 # List of CSV files and their corresponding table names
-csv_files = [('swiggy.csv', 'swiggy') ] # Added payments.csv for specific handling]
+csv_files = [
+    ('customers.csv', 'customers'),
+    ('orders.csv', 'orders'),
+    ('sales.csv', 'sales'),
+    ('products.csv', 'products'),
+    ('delivery.csv', 'delivery'),
+    ('payments.csv', 'payments')  
+]
 
 # Connect to the MySQL database
 conn = mysql.connector.connect(
     host='localhost',
     user='root',
     password='1234',
-    database='swiggy'
+    database='ecommerce'
 )
 cursor = conn.cursor()
 
 # Folder containing the CSV files
-folder_path = 'C:/Users/HP/OneDrive/Desktop/data analysis/swiggy'
+folder_path = 'C:/Users/HP/OneDrive/Desktop/data analysis/eCommerce'
 
 def get_sql_type(dtype):
     if pd.api.types.is_integer_dtype(dtype):
