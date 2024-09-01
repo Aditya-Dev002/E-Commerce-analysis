@@ -34,7 +34,7 @@ pip install pandas matplotlib seaborn numpy
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/ecommerce-analysis.git
+git clone https://github.com/Aditya-dev.002/ecommerce-analysis.git
 ```
 
 2. Navigate to the project directory:
