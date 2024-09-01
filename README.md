@@ -1,6 +1,3 @@
-My apologies for the oversight! Let me correct that by adding the appropriate hashtags for section headings:
-
-```markdown
 # E-commerce Analysis Project
 
 This repository contains the analysis of an e-commerce store using Python and Jupyter Notebook. The analysis aims to provide insights into customer behavior, sales trends, and product performance using exploratory data analysis (EDA).
@@ -87,7 +84,3 @@ If you would like to contribute to this project, please fork the repository and 
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 ```
-
-Now, the README file uses hashtags for all section headings, ensuring consistency and clear formatting. You can copy and paste this directly into your `README.md` file, and it will display properly on GitHub.
-
-Let me know if there's anything else you need!
